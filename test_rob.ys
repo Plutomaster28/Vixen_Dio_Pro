@@ -1,0 +1,2 @@
+read_verilog -sv rtl/core/vixen_rename_rob.sv
+hierarchy -check -top vixen_rename_rob

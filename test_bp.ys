@@ -1,0 +1,1 @@
+read_verilog -sv /workspace/rtl/core/vixen_branch_predictor.sv; hierarchy -top vixen_branch_predictor; proc; opt; check

@@ -1,0 +1,97 @@
+# Vixen Dio Pro .gitignore
+
+# OpenLane generated files
+runs/
+*.log
+*.rpt
+*.def
+*.lef
+*.gds
+*.mag
+*.spice
+*.sdc
+*.v
+results/final/
+tmp/
+
+# Synthesis outputs
+*.blif
+*.edif
+*.json
+
+# Simulation files
+*.vcd
+*.fst
+*.ghw
+*.wlf
+work/
+transcript
+modelsim.ini
+
+# Verilator generated
+obj_dir/
+*.mk
+*.d
+*.o
+
+# Build artifacts
+build/
+*.exe
+*.so
+*.dll
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+
+# Cadence tools
+cds.lib
+hdl.var
+simvision*
+transcript

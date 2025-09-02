@@ -1,0 +1,18 @@
+# Simple Yosys test script to check array handling
+read_verilog -sv rtl/vixen_dio_pro.sv
+read_verilog -sv rtl/core/vixen_frontend.sv
+read_verilog -sv rtl/core/vixen_rename_rob.sv
+read_verilog -sv rtl/core/vixen_issue_queue.sv
+read_verilog -sv rtl/core/vixen_smt_manager.sv
+read_verilog -sv rtl/core/vixen_branch_predictor.sv
+read_verilog -sv rtl/core/vixen_trace_cache.sv
+read_verilog -sv rtl/execution/vixen_execution_cluster.sv
+read_verilog -sv rtl/execution/vixen_agu_mul_div.sv
+read_verilog -sv rtl/fpu/vixen_fpu.sv
+read_verilog -sv rtl/cache/vixen_l1_cache.sv
+read_verilog -sv rtl/cache/vixen_l2_l3_cache.sv
+read_verilog -sv rtl/memory/vixen_memory.sv
+
+hierarchy -top vixen_dio_pro
+proc
+memory -nomap

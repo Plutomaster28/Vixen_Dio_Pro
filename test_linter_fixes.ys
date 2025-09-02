@@ -1,0 +1,4 @@
+# Test script to verify linter fixes
+read_verilog -sv rtl/core/vixen_rename_rob.sv
+read_verilog -sv rtl/core/vixen_branch_predictor.sv
+hierarchy -check
