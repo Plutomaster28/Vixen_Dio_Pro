@@ -8,7 +8,7 @@
 
 A complete, **open source**, synthesizable x86-64 processor core inspired by Intel's Pentium 4 Extreme Edition. Successfully synthesized through the entire OpenLane ASIC flow with **GDSII generation**.
 
-## 🎯 **Why Open Source This?**
+##  **Why Open Source This?**
 
 Making advanced processor designs accessible to:
 - **Students** learning computer architecture
@@ -17,14 +17,14 @@ Making advanced processor designs accessible to:
 - **Enthusiasts** interested in CPU internals
 - **Open Source Hardware** community
 
-## 🚀 **Proven Working Design**
+##  **Proven Working Design**
 
-✅ **Complete ASIC Flow Success** - Synthesis → Placement → Routing → GDSII  
-✅ **Zero DRC Violations** - Clean, manufacturable layout  
-✅ **OpenLane Compatible** - Works with open source toolchain  
-✅ **Sky130 Ready** - Targets open source 130nm PDK
+ **Complete ASIC Flow Success** - Synthesis → Placement → Routing → GDSII  
+ **Zero DRC Violations** - Clean, manufacturable layout  
+ **OpenLane Compatible** - Works with open source toolchain  
+ **Sky130 Ready** - Targets open source 130nm PDK
 
-## 🏗️ **Architecture Overview**
+##  **Architecture Overview**
 
 A high-performance x86-64 CISC processor inspired by the Intel Pentium 4 Extreme Edition "Gallatin" core, featuring advanced microarchitectural techniques:
 
@@ -55,7 +55,7 @@ Issue (1) → Execute (2-6) → Writeback (1) → Retire (1)
 - **Out-of-Order Execution**: 48-entry reorder buffer
 - **Register Renaming**: 128 physical registers per thread
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Vixen_Dio_Pro/
@@ -93,7 +93,7 @@ Vixen_Dio_Pro/
 └── README.md                     # This file
 ```
 
-## 🔧 Requirements
+##  Requirements
 
 ### Software Dependencies
 - **OpenROAD**: Open-source RTL-to-GDSII flow
@@ -110,7 +110,7 @@ Vixen_Dio_Pro/
 - **PDK**: Compatible with sky130 or similar 130nm PDK
 - **Standard Cells**: OpenROAD-compatible standard cell library
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone and Setup
 ```bash
@@ -189,7 +189,7 @@ python3 scripts/vixen_synthesis.py
 openroad -no_splash config/openroad_config.tcl
 ```
 
-## 📊 Performance Targets
+##  Performance Targets
 
 | Specification | Target Value | Notes |
 |---------------|--------------|-------|
@@ -202,7 +202,7 @@ openroad -no_splash config/openroad_config.tcl
 | **Branch Misprediction** | 20 cycles | Full pipeline flush |
 | **Power Consumption** | ~100W | Estimated @ 130nm |
 
-## 🧪 Verification and Testing
+##  Verification and Testing
 
 ### Syntax Validation
 ```bash
@@ -224,7 +224,7 @@ yosys -p "read_verilog -sv rtl/vixen_dio_pro.sv; hierarchy -check"
 - **Equivalence Checking**: RTL vs. gate-level
 - **Model Checking**: Control flow verification
 
-## 📈 Synthesis Results
+##  Synthesis Results
 
 ### Area Breakdown (Estimated)
 - **Total Area**: ~240 mm² @ 130nm
@@ -243,7 +243,7 @@ yosys -p "read_verilog -sv rtl/vixen_dio_pro.sv; hierarchy -check"
 - **Static Power**: ~20W @ 85°C
 - **Peak Power**: ~120W (full utilization)
 
-## 🔍 Design Philosophy
+##  Design Philosophy
 
 ### Intel Pentium 4 Inspiration
 The Vixen Dio Pro draws heavily from the Intel Pentium 4 Extreme Edition microarchitecture:
@@ -261,7 +261,7 @@ While inspired by P4, Vixen Dio Pro includes modern improvements:
 3. **Advanced Cache**: Better replacement policies and coherence
 4. **Power Optimization**: Clock gating and power islands
 
-## 🤝 Contributing
+##  Contributing
 
 ### Development Guidelines
 1. **Code Style**: Follow SystemVerilog IEEE 1800 standard
@@ -281,7 +281,7 @@ While inspired by P4, Vixen Dio Pro includes modern improvements:
 - **Documentation**: Better technical documentation
 - **Tools**: Enhanced build and automation scripts
 
-## 📚 Documentation
+##  Documentation
 
 ### Architecture Documents
 - `docs/microarchitecture.md`: Detailed microarchitecture description
@@ -295,7 +295,7 @@ While inspired by P4, Vixen Dio Pro includes modern improvements:
 - `docs/verification_plan.md`: Verification strategy
 - `docs/synthesis_guide.md`: OpenROAD synthesis guide
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -335,33 +335,24 @@ export NUM_THREADS=2
 3. Consult the OpenROAD documentation
 4. Contact the development team
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Intel Corporation**: For the original Pentium 4 architecture inspiration
 - **OpenROAD Project**: For the open-source RTL-to-GDSII flow
 - **RISC-V Community**: For open hardware development methodologies
 - **Academic Community**: For microarchitecture research and publications
 
-## 📞 Contact
+##  Contact
 
 - **Project Lead**: [Your Name]
 - **Email**: [your.email@domain.com]
 - **GitHub**: [github.com/yourusername]
 - **Documentation**: [project-docs-url]
-
+~i'll work on this later~
 ---
 
 **Note**: This processor is designed for educational and research purposes. It implements a subset of the x86-64 instruction set and is not intended for production use without extensive verification and validation.
-
-## 🔄 Version History
-
-- **v1.0.0**: Initial release with basic x86-64 support
-- **v1.1.0**: Added SMT and trace cache support
-- **v1.2.0**: Enhanced FPU and SSE implementation
-- **v1.3.0**: Improved cache hierarchy and OpenROAD integration
-
-**Current Version**: v1.3.0 - December 2024

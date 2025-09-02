@@ -2,35 +2,35 @@
 
 Thank you for your interest in contributing to the Vixen Dio Pro open source x86-64 processor! 🚀
 
-## 🎯 **How to Contribute**
+##  **How to Contribute**
 
 ### **1. Areas of Contribution**
 
-#### **🔧 Verification & Testing**
+#### ** Verification & Testing**
 - Create comprehensive testbenches
 - Add formal verification
 - FPGA prototyping
 - Performance benchmarking
 
-#### **⚡ Performance Optimization**
+#### ** Performance Optimization**
 - Timing closure improvements
 - Power optimization
 - Area reduction
 - Frequency scaling
 
-#### **🏗️ Architecture Enhancements**
+#### ** Architecture Enhancements**
 - Cache hierarchy integration
 - Advanced branch prediction (TAGE)
 - Trace cache implementation
 - Full x86-64 ISA support
 
-#### **📚 Documentation**
+#### ** Documentation**
 - Architecture documentation
 - Tutorial creation
 - Code comments
 - User guides
 
-#### **🛠️ Tooling & Infrastructure**
+#### ** Tooling & Infrastructure**
 - Build system improvements
 - CI/CD setup
 - Automated testing
@@ -171,7 +171,7 @@ Brief description of changes
 - Be clear and specific
 - Provide reproducible examples
 
-## 🚀 **Priority Contributions**
+##  **Priority Contributions**
 
 ### **High Impact**
 1. **Testbench Development** - Critical for verification
@@ -186,14 +186,14 @@ Brief description of changes
 - Update documentation
 - Add synthesis constraints
 
-## 📞 **Getting Help**
+##  **Getting Help**
 
 - **GitHub Issues** - Bug reports and feature requests
 - **GitHub Discussions** - Questions and general discussion
 - **Documentation** - Check existing docs first
 - **Code Comments** - Often explain design decisions
 
-## 🙏 **Recognition**
+##  **Recognition**
 
 Contributors will be:
 - Listed in the contributors file
@@ -203,6 +203,6 @@ Contributors will be:
 
 ---
 
-**Happy Contributing!** 🎉
+**Happy Contributing!** 
 
 Your contributions help make advanced processor design accessible to everyone!
