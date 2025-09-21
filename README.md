@@ -1,6 +1,6 @@
 # Vixen Dio Pro - Open Source x86-64 Processor
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![OpenLane](https://img.shields.io/badge/OpenLane-v1.0.1-blue.svg)](https://github.com/The-OpenROAD-Project/OpenLane)
 [![Sky130](https://img.shields.io/badge/PDK-Sky130-green.svg)](https://github.com/google/skywater-pdk)
 [![Synthesis](https://img.shields.io/badge/Status-Synthesized-success.svg)](#)
@@ -337,7 +337,7 @@ export NUM_THREADS=2
 
 ##  License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ##  Acknowledgments
 
