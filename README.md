@@ -1,4 +1,4 @@
-# Vixen Dio Pro - Open Source x86-64 Processor
+# Vixen Dio Pro - Open Source x86-64 Subset Processor
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![OpenLane](https://img.shields.io/badge/OpenLane-v1.0.1-blue.svg)](https://github.com/The-OpenROAD-Project/OpenLane)
